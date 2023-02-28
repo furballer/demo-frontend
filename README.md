@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## A project to test Docker + Jenkins + github CI/CD
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
