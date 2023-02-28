@@ -4,9 +4,9 @@ FROM node:lts-alpine3.16 as builder
 
 RUN npm install -g pnpm
 
-COPY package.json .
-
 WORKDIR '/app'
+
+COPY package*.json .
 
 RUN pnpm install
 
